@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+            "name": "webpack-watcher",
+            "script": "npm",
+            "args": "run watch"
+        },
+        {
+            "name": "webpack-http",
+            "script": "npm",
+            "args": "run server"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "dyno_js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --progress -p",
+        "watch": "webpack --progress --watch",
+        "server": "webpack-dev-server --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/AnatolyMuntean/dyno-js.git"
+    },
+    "author": "AM",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AnatolyMuntean/dyno-js/issues"
+    },
+    "homepage": "https://github.com/AnatolyMuntean/dyno-js#readme",
+    "dependencies": {
+        "moment": "^2.19.1"
+    },
+    "devDependencies": {
+        "webpack": "^3.8.1"
+    }
+}
